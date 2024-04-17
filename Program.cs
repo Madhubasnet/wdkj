@@ -6,6 +6,8 @@
     {
         Console.Write("Enter the grade: ");
         int grade = Convert.ToInt32(Console.ReadLine());
+        
+        
         total = total + grade;
         gradecounter = gradecounter + 1;
     }
